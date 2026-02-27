@@ -74,7 +74,7 @@ function App() {
       <header className="app-header">
         <h1>Yudh Weather App</h1>
         <p className="subtitle">Get current weather anywhere in the world</p>
-        <p className="subtitle">Developde by SUDHIR</p>
+        <p className="subtitle">Developed by SUDHIR</p>
       </header>
 
       <main className="app-main">
