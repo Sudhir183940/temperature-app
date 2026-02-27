@@ -10,7 +10,7 @@ function App() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [city, setCity] = useState('London');
-    const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY || 'your_openweathermap_api_key';
+    const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY || 'a6fa19e78dac342a17035ab1bd113e47';
     const fetchWeather = async (cityName) => {
         if (!cityName.trim()) {
             setError('Please enter a city name');
